@@ -1,38 +1,41 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+  <title>My solution to the FrontEnd Menthor's single price grid component challenge</title>
+  <meta name="viewport" content="width=450, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <div class='single_price_component'>
-        <div class='community_section'>
-          <p class='community_section_title'>Join our community</p>
-          <p class='community_section_subtitle'>30-day, hassle-free money back guarantee</p>
-          <p class='community_section_content'>Gain access to our fully library of tutorials along with expert code reviews.</p>
-          <p class='community_section_content'>Perfect for any developers who are serious about honing ther skills</p>
-        </div>
-        <div class='subscription_section'>
-          <p class='subscription_section_title'>Monthly Subscription</p>
-          <p class='subscription_section_price'>$29</p>
-          <p class='subscription_section_priceperiod'>per month</p>
-          <p class='subscription_section_content'>Full access for less than $1 a day</p>
-          <button class='subscription_signup_button'>Sign Up</button>
-        </div>
-        <div class='whyus_section'>
-          <p class='whyus_section_title'>Why Us</p>
-          <p class='whyus_section_content'>Tutorials by industry experts</p>
-          <p class='whyus_section_content'>Peer and expert code review</p>
-          <p class='whyus_section_content'>Coding exercises</p>
-          <p class='whyus_section_content'>Access to our GitHub repos</p>
-          <p class='whyus_section_content'>Community forum</p>
-          <p class='whyus_section_content'>Flashcard decks</p>
-          <p class='whyus_section_content'>New videos every week</p>
-        </div>
-      </div>
+  <main class='single_price_component'>
+    <section aria-labelledby='cst' class='community_section'>
+      <p id='cst' class='community_section_title'>Join our community</p>
+      <p class='community_section_subtitle'>30-day, hassle-free money back guarantee</p>
+      <p class='community_section_content'>Gain access to our fully library of tutorials along with expert code reviews.</p>
+      <p class='community_section_content'>Perfect for any developers who are serious about honing ther skills</p>
+    </section>
+    <section aria-labelledby='sst' class='subscription_section'>
+      <p id='sst' class='subscription_section_title'>Monthly Subscription</p>
+      <p class='subscription_section_price'>$29</p>
+      <p class='subscription_section_priceperiod'>per month</p>
+      <p class='subscription_section_content'>Full access for less than $1 a day</p>
+      <button class='subscription_signup_button'>Sign Up</button>
+    </section>
+    <section aria-labelledby='wust' class='whyus_section'>
+      <p id='wust' class='whyus_section_title'>Why Us</p>
+      <p class='whyus_section_content'>Tutorials by industry experts</p>
+      <p class='whyus_section_content'>Peer and expert code review</p>
+      <p class='whyus_section_content'>Coding exercises</p>
+      <p class='whyus_section_content'>Access to our GitHub repos</p>
+      <p class='whyus_section_content'>Community forum</p>
+      <p class='whyus_section_content'>Flashcard decks</p>
+      <p class='whyus_section_content'>New videos every week</p>
+    </section>
+  </main>
 </body>
 
 </html>
