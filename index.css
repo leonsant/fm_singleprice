@@ -1,0 +1,125 @@
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-size: 16px;
+  display: grid;
+}
+
+.single_price_component {
+  font-family: "Karla", sans-serif;
+  align-self: center;
+  justify-self: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: 5px 5px 20px hsl(204, 0%, 75%);
+  @media screen and (min-width: 800px) {
+    width: 680px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 10px;
+  }
+  @media screen and (max-width: 800px) {
+    border-radius: 10px;
+    width: 400px;
+  }
+}
+
+.community_section {
+  padding: 20px 40px 30px 40px;
+  grid-row: 1;
+  grid-column: 1 / 3;
+  font-weight: 400;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.community_section_title {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+}
+
+.community_section_subtitle {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: hsl(71, 73%, 54%);
+}
+
+.community_section_content {
+  color: hsl(179, 62%, 43%);
+  line-height: 0.6em;
+  @media screen and (max-width: 800px) {
+    display: inline;
+    line-height: 2em;
+  }
+}
+
+.subscription_section {
+  padding: 20px 40px 30px 40px;
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  @media screen and (min-width: 800px) {
+    border-bottom-left-radius: 10px;
+  }
+}
+
+.subscription_section_title {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.subscription_section_price {
+  margin-right: 10px;
+  display: inline;
+  font-size: 2em;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.subscription_section_priceperiod {
+  display: inline;
+  vertical-align: middle;
+  color: hsl(204, 43%, 83%);
+}
+
+.subscription_section_content {
+  color: hsl(204, 43%, 95%);
+}
+
+.subscription_signup_button {
+  width: 100%;
+  background-color: hsl(71, 73%, 49%);
+  border: 0;
+  color: hsl(204, 43%, 97%);
+  padding: 15px 0px 15px 0px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 1em;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px hsl(179, 62%, 35%);
+}
+
+.subscription_signup_button:hover {
+  background-color: hsl(71, 73%, 55%);
+}
+
+.whyus_section {
+  padding: 20px 40px 30px 40px;
+  background-color: hsl(179, 62%, 47%);
+  border-bottom-right-radius: 10px;
+  @media screen and (max-width: 1000px) {
+    border-bottom-left-radius: 10px;
+  }
+}
+
+.whyus_section_title {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.whyus_section_content {
+  color: hsl(204, 43%, 91%);
+  line-height: 7px;
+}
