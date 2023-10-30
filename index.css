@@ -149,6 +149,5 @@ body {
 
 .whyus_section_content {
   color: hsl(204, 43%, 91%);
-  /* line-height: 7px; */
-  line-height: 0.5em;
+  line-height: 0.45em;
 }
